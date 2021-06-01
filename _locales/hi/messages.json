@@ -1,0 +1,50 @@
+{
+    "automatic_save": {
+        "message": "Settings saved."
+    },
+    "description": {
+        "message": "Translate words and phrases while browsing the web, using Google translator."
+    },
+    "instruction": {
+        "message": "Instruction"
+    },
+    "name": {
+        "message": "Translator"
+    },
+    "settings": {
+        "message": "Settings"
+    },
+    "translate": {
+        "message": "Translate"
+    },
+    "translate_to": {
+        "message": "Translate to:"
+    },
+
+    "translate_to_default": {
+        "message": "Translate to (default):"
+    },
+
+    "translate_to_additional": {
+        "message": "Translate to (additional):"
+    },
+
+    "view_mode": {
+        "message": "View mode:"
+    },
+    "double_click": {
+        "message": "Double-click translation"
+    },
+    "double_click_true": {
+        "message": "Enabled"
+    },
+    "double_click_false": {
+        "message": "Disabled"
+    },
+    "icon_trans": {
+        "message": "Show a translation button"
+    },
+    "view_mode_tt": {
+        "message": "Tooltip"
+    }
+}

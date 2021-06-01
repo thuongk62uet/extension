@@ -1,0 +1,185 @@
+.translate-tooltip-mtz * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left !important;
+  box-shadow: none !important;
+  text-shadow: none !important; }
+
+.hidden {
+  display: none !important; }
+
+.bold {
+  font-weight: bold !important; }
+
+.buttons {
+  display: flex !important;
+  justify-content: space-between !important; }
+  .buttons span.copy, .buttons span.sound {
+    width: 22px !important;
+    height: 24px !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important; }
+  .buttons span.copy {
+    margin-right: 10px !important;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/copy-icon.svg") !important; }
+    .buttons span.copy.copied {
+      background-image: url("chrome-extension://__MSG_@@extension_id__/images/copied.svg") !important; }
+  .buttons span.sound {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/sound-translate.png") !important; }
+
+span.translate-button-mtz {
+  position: absolute !important;
+  width: 25px !important;
+  height: 25px !important;
+  background: url("chrome-extension://__MSG_@@extension_id__/images/48.png") no-repeat !important;
+  background-size: 25px !important;
+  z-index: 10000 !important; }
+
+div.translate-tooltip-mtz {
+  position: absolute !important;
+  width: 320px !important;
+  height: 370px !important;
+  padding: 10px !important;
+  border: 1px solid #000 !important;
+  border-radius: 5px !important;
+  color: #000 !important;
+  background-color: #fff !important;
+  overflow: hidden !important;
+  z-index: 100001 !important; }
+  div.translate-tooltip-mtz .header {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+    background-color: #fff !important; }
+    div.translate-tooltip-mtz .header .header-controls {
+      display: flex !important; }
+      div.translate-tooltip-mtz .header .header-controls .sound-translate, div.translate-tooltip-mtz .header .header-controls .settings {
+        width: 20px !important;
+        height: 20px !important; }
+      div.translate-tooltip-mtz .header .header-controls .sound-translate {
+        background: url("chrome-extension://__MSG_@@extension_id__/images/sound-translate.png") no-repeat !important;
+        background-size: 20px !important; }
+        div.translate-tooltip-mtz .header .header-controls .sound-translate:hover {
+          cursor: pointer; }
+      div.translate-tooltip-mtz .header .header-controls .settings {
+        margin-left: 5px !important;
+        background: url("chrome-extension://__MSG_@@extension_id__/images/settings1.svg") no-repeat !important;
+        background-size: 20px !important; }
+        div.translate-tooltip-mtz .header .header-controls .settings:hover {
+          cursor: pointer !important; }
+    div.translate-tooltip-mtz .header .translate-icons {
+      display: flex !important;
+      align-items: center !important; }
+      div.translate-tooltip-mtz .header .translate-icons img {
+        width: 25px !important;
+        height: 25px !important;
+        margin-left: 5px !important; }
+        div.translate-tooltip-mtz .header .translate-icons img::first-child {
+          margin-left: 0 !important; }
+        div.translate-tooltip-mtz .header .translate-icons img.arrow {
+          width: 17px !important;
+          height: 15px !important; }
+  div.translate-tooltip-mtz .main-translate-word {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important; }
+    div.translate-tooltip-mtz .main-translate-word .main-word {
+      font-size: 24px !important; }
+      div.translate-tooltip-mtz .main-translate-word .main-word::first-letter {
+        text-transform: uppercase !important; }
+  div.translate-tooltip-mtz .translated-text {
+    width: 98%;
+    background-color: #fff !important; }
+    div.translate-tooltip-mtz .translated-text .translated-categories {
+      width: 100% !important;
+      height: 230px !important;
+      padding-bottom: 10px !important;
+      overflow-y: auto !important;
+      overflow-x: hidden !important; }
+      div.translate-tooltip-mtz .translated-text .translated-categories::-webkit-scrollbar {
+        width: 10px !important; }
+      div.translate-tooltip-mtz .translated-text .translated-categories::-webkit-scrollbar-track {
+        border-radius: 5px !important; }
+      div.translate-tooltip-mtz .translated-text .translated-categories::-webkit-scrollbar-thumb {
+        border-radius: 5px !important;
+        background-color: #a000aa !important; }
+    div.translate-tooltip-mtz .translated-text .translated-category h2.word-category {
+      padding-bottom: 15px !important;
+      border-bottom: 1px solid #000 !important;
+      margin: 10px 0 !important;
+      font-size: 20px !important; }
+    div.translate-tooltip-mtz .translated-text .translated-category .translates span {
+      display: inline-block !important;
+      max-width: 220px !important; }
+    div.translate-tooltip-mtz .translated-text .translated-category .translated-word {
+      display: flex !important;
+      justify-content: space-between !important;
+      margin: 4px 0 !important; }
+      div.translate-tooltip-mtz .translated-text .translated-category .translated-word span.word-text {
+        max-width: 220px !important; }
+  div.translate-tooltip-mtz .sentences {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    height: 230px !important; }
+    div.translate-tooltip-mtz .sentences::-webkit-scrollbar {
+      width: 10px !important; }
+    div.translate-tooltip-mtz .sentences::-webkit-scrollbar-track {
+      border-radius: 5px !important; }
+    div.translate-tooltip-mtz .sentences::-webkit-scrollbar-thumb {
+      border-radius: 5px !important;
+      background-color: #a000aa !important; }
+    div.translate-tooltip-mtz .sentences .translated-sentence-wrapper {
+      width: 98% !important;
+      display: flex !important;
+      justify-content: space-between !important; }
+      div.translate-tooltip-mtz .sentences .translated-sentence-wrapper .translated-sentence {
+        max-width: 225px !important; }
+    div.translate-tooltip-mtz .sentences .translit {
+      max-width: 225px !important; }
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff; }
+  .controls__control-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%; }
+  .controls__description {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #aaaaaa; }
+  .controls__toggle {
+    position: relative;
+    width: 30px;
+    height: 16px;
+    border-radius: 24px;
+    background: #000;
+    cursor: pointer;
+    transition: all .3s ease; }
+    .controls__toggle .controls__inner-circle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 50%;
+      left: 2px;
+      transform: translateY(-50%);
+      background: #fff;
+      border-radius: 50%;
+      transition: left .3s ease; }
+    .controls__toggle.active {
+      background: #68bf9b;
+      flex-direction: row-reverse; }
+      .controls__toggle.active .controls__inner-circle {
+        background: #fff;
+        left: 15px; }
+
+.audio-for-speech {
+  position: absolute !important;
+  left: -100% !important; }

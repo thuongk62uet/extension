@@ -1,0 +1,50 @@
+{
+    "automatic_save": {
+        "message": "Einstellungen gespeichert."
+    },
+    "description": {
+        "message": "Übersetzen Sie Wörter und Sätze, während Sie mit Google Translate im Internet surfen."
+    },
+    "instruction": {
+        "message": "Anweisung"
+    },
+    "name": {
+        "message": "Übersetzer"
+    },
+    "settings": {
+        "message": "Einstellungen"
+    },
+    "translate": {
+        "message": "Übersetzen"
+    },
+    "translate_to": {
+        "message": "Übersetzen ins:"
+    },
+
+    "translate_to_default": {
+        "message": "Übersetzen in (standard):"
+    },
+
+    "translate_to_additional": {
+        "message": "Übersetzen in (zusätzlich):"
+    },
+
+    "view_mode": {
+        "message": "Ansichtsmodus:"
+    },
+    "double_click": {
+        "message": "Schnelle Wortübersetzung"
+    },
+    "double_click_true": {
+        "message": "Aktivieren"
+    },
+    "double_click_false": {
+        "message": "Deaktivieren"
+    },
+    "icon_trans": {
+        "message": "Zeigen Sie eine Übersetzungsschaltfläche an"
+    },
+    "view_mode_tt": {
+        "message": "Tooltip"
+    }
+}

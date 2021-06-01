@@ -1,0 +1,50 @@
+{
+    "automatic_save": {
+        "message": "Impostazioni salvate."
+    },
+    "description": {
+        "message": "Traduci parole e frasi durante la navigazione sul Web, utilizzando il traduttore di Google."
+    },
+    "instruction": {
+        "message": "Istruzioni"
+    },
+    "name": {
+        "message": "Traduttore"
+    },
+    "settings": {
+        "message": "Impostazioni"
+    },
+    "translate": {
+        "message": "Tradurre"
+    },
+    "translate_to": {
+        "message": "Traduci in:"
+    },
+
+    "translate_to_default": {
+        "message": "Traduci in (predefinito):"
+    },
+
+    "translate_to_additional": {
+        "message": "Traduci in (aggiuntivo):"
+    },
+
+    "view_mode": {
+        "message": "Modalità di visualizzazione:"
+    },
+    "double_click": {
+        "message": "Fare doppio clic sulla traduzione"
+    },
+    "double_click_true": {
+        "message": "Abilitare"
+    },
+    "double_click_false": {
+        "message": "Disabilitare"
+    },
+    "icon_trans": {
+        "message": "Mostra un pulsante di traduzione"
+    },
+    "view_mode_tt": {
+        "message": "Tooltip"
+    }
+}

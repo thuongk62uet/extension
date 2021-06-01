@@ -1,0 +1,50 @@
+{
+    "automatic_save": {
+        "message": "Paramètres sauvegardés."
+    },
+    "description": {
+        "message": "Traduisez des mots et des phrases tout en naviguant sur le Web à l'aide du traducteur Google."
+    },
+    "instruction": {
+        "message": "Instruction"
+    },
+    "name": {
+        "message": "Traducteur"
+    },
+    "settings": {
+        "message": "Réglages"
+    },
+    "translate": {
+        "message": "Traduire"
+    },
+    "translate_to": {
+        "message": "Traduire en:"
+    },
+
+    "translate_to_default": {
+        "message": "Traduire en (par défaut):"
+    },
+
+    "translate_to_additional": {
+        "message": "Traduire en (supplémentaire):"
+    },
+
+    "view_mode": {
+        "message": "Mode d'affichage:"
+    },
+    "double_click": {
+        "message": "Traduction en double-clic"
+    },
+    "double_click_true": {
+        "message": "Activer"
+    },
+    "double_click_false": {
+        "message": "Désactiver"
+    },
+    "icon_trans": {
+        "message": "Afficher un bouton de traduction"
+    },
+    "view_mode_tt": {
+        "message": "Info-bulle"
+    }
+}

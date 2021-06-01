@@ -1,0 +1,50 @@
+{
+    "automatic_save": {
+        "message": "Настройки сохранены"
+    },
+    "description": {
+        "message": "Переводите слова и фразы во время просмотра веб-страниц с помощью переводчика Google."
+    },
+    "instruction": {
+        "message": "Инструкция"
+    },
+    "name": {
+        "message": "Переводчик"
+    },
+    "settings": {
+        "message": "Настройки"
+    },
+    "translate": {
+        "message": "Перевести"
+    },
+    "translate_to": {
+        "message": "Перевести на:"
+    },
+
+    "translate_to_default": {
+        "message": "Перевести на (основной):"
+    },
+
+    "translate_to_additional": {
+        "message": "Перевести на (дополнительный):"
+    },
+
+    "view_mode": {
+        "message": "View mode:"
+    },
+    "double_click": {
+        "message": "Перевод по двойному клику"
+    },
+    "double_click_true": {
+        "message": "Включено"
+    },
+    "double_click_false": {
+        "message": "Выключено"
+    },
+    "icon_trans": {
+        "message": "Показывать иконку быстрого перевода"
+    },
+    "view_mode_tt": {
+        "message": "Подсказдки"
+    }
+}
